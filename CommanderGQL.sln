@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommanderGQL", "CommanderGQL\CommanderGQL.csproj", "{794322AD-4883-4018-A106-5C0A5D7126B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794322AD-4883-4018-A106-5C0A5D7126B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794322AD-4883-4018-A106-5C0A5D7126B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794322AD-4883-4018-A106-5C0A5D7126B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794322AD-4883-4018-A106-5C0A5D7126B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25821B2B-0AFF-4851-8CFE-3F64FD33EA0D}
+	EndGlobalSection
+EndGlobal
