@@ -6,7 +6,18 @@ builder.Services.AddPooledDbContextFactory<AppDbContext>(options => options.UseS
 
 builder.Services
     .AddGraphQLServer()
-    .AddQueryType<Query>();
+    .AddQueryType<Query>()
+    .AddMutationType<Mutation>()
+    .AddSubscriptionType<Subscription>()
+    .AddType<PlatformType>()
+    .AddType<AddPlatformInputType>()
+    .AddType<AddPlatformPayloadType>()
+    .AddType<CommandType>()
+    .AddType<AddCommandInputType>()
+    .AddType<AddCommandPayloadType>()
+    .AddFiltering()
+    .AddSorting()
+    .AddInMemorySubscriptions();
 
 var app = builder.Build();
 
